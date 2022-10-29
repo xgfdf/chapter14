@@ -14,6 +14,7 @@ class A{
 
     static A a = new A();//构造器
 
+
     {
         System.out.println("普通代码块");
     }

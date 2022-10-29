@@ -1,4 +1,4 @@
-package com.gao.collections_;
+package com.gao.collection_;
 
 import java.util.*;
 
