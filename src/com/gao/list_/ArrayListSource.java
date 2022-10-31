@@ -13,7 +13,7 @@ public class ArrayListSource {
 
 
         //1、使用无参构造器创建ArrayList对象
-        ArrayList list = new ArrayList();
+        ArrayList list = new ArrayList(1);
         //源码：
          /*
          public ArrayList() {

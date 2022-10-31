@@ -12,6 +12,9 @@ public class Vector_ {
         //无参构造器
         //有参数的构造
         Vector vector = new Vector(8);
+
+        Vector vector1 = new Vector(8,23);
+
         for (int i = 0; i < 10; i++) {
             vector.add(i);
         }
@@ -46,6 +49,14 @@ public class Vector_ {
               //newCapacity = oldCapacity + ((capacityIncrement > 0) ?
               //                             capacityIncrement : oldCapacity);
               //就是扩容两倍.
+
+             Vector vector1 = new Vector(8,23);
+              //₍₂₎如果乘2的话 就体现不了代码的灵活性了
+              //capacityIncrement的值是可以通过Vector的有参构造器传入的，
+              //capacityIncrement随意的控制数组扩容大小
+
+            //capacityIncrement是在有参构造器里设置的扩容增量
+
             private void grow(int minCapacity) {
                 // overflow-conscious code
                 int oldCapacity = elementData.length;
