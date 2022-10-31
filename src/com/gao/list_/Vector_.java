@@ -1,4 +1,4 @@
-package com.hspedu.list_;
+package com.gao.list_;
 
 import java.util.Vector;
 
